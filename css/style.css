@@ -1,313 +1,214 @@
-/*-----INICIA NAVBAR-----*/
-.navbar {
-    background-color: #b7958e;
-    padding: 1.875rem;
-}
-
-.logo {
-    width: 3.125rem;
-    height: 3.125rem;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar-toggler {
-    color: black;
-    box-shadow: 0 0 5px black;
-}
-
-.navbar-toggler-icon {
-    color: black;
-}
-
-.nav-link {
-    color: black;
-    font-size: medium;
-
-}
-
-.nav-link:hover {
-    color: black;
-    transform: scale(1.1);
-    transition: all 0.5s ease;
-    text-decoration: underline;
-}
-
-/*-----FIN NAVBAR-----*/
-
-/*------BANNER------*/
-
 .banner {
-    background-image: url(../media/background-principal.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 38rem;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  background-image: url(../media/background-principal.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 38rem;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-.btn-reservas {
-    background-color: rgba(132, 15, 17, 0.719);
-    border-radius: 5px;
-
+.banner .btn-reservas {
+  background-color: rgba(132, 15, 17, 0.719);
+  border-radius: 5px;
 }
-
-.link-reservas {
-    text-decoration: none;
-    color: black;
+.banner .btn-reservas .link-reservas {
+  text-decoration: none;
+  color: black;
 }
-
-.link-reservas:hover {
-
-    text-decoration: none;
-    color: black;
+.banner .btn-reservas .link-reservas:hover {
+  text-decoration: none;
+  color: black;
 }
-
-/*-----FIN BANNER-----*/
-
-/*=======INDEX=======*/
-
-/*------RECOMENDACIONES-----*/
 
 .title-recom {
-    display: flex;
-    color: black;
-    background-color: #b7958e;
-    height: 6.25rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  color: black;
+  background-color: #b7958e;
+  height: 6.25rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-h3 {
-    text-decoration: underline;
+.title-recom h3 {
+  text-decoration: underline;
 }
 
 .container-fluid {
-    background-color: #b7958e;
+  background-color: #b7958e;
 }
-
-.col-lg-4 {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-
+.container-fluid .col-lg-4 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-/*========FIN INDEX=======*/
-
-
-/*=======NOSOTROS========*/
 
 .history {
-    padding: 1.875rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+  padding: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .item {
-    height: 18.75rem;
-    border: black solid;
+  height: 18.75rem;
+  border: black solid;
 }
-
-.item1 {
-    background-image: url(../media/quienes-somos-1.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item1 {
+  background-image: url(../media/quienes-somos-1.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-.item2 {
-    background-image: url(../media/quienes-somos-2.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item2 {
+  background-image: url(../media/quienes-somos-2.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-.item3 {
-    background-image: url(../media/quienes-somos-3.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item3 {
+  background-image: url(../media/quienes-somos-3.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-.item4 {
-    background-image: url(../media/quienes-somos-4.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item4 {
+  background-image: url(../media/quienes-somos-4.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-.item5 {
-    background-image: url(../media/quienes-somos-5.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item5 {
+  background-image: url(../media/quienes-somos-5.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-.item6 {
-    background-image: url(../media/quienes-somos-6.jpg);
-    background-position: center;
-    background-size: cover;
+.item .item6 {
+  background-image: url(../media/quienes-somos-6.jpg);
+  background-position: center;
+  background-size: cover;
 }
-
-/*=======FIN NOSOTROS======*/
-
-/*======NUESTRA CARTA=======*/
 
 .title-menu {
-    display: flex;
-    text-decoration: underline;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  text-decoration: underline;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-.menu {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.title-menu .menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
-
-/*====FIN NUESTRA CARTA=====*/
-
-/*========CONTACTOS=======*/
 
 .contact1 {
-    display: flex;
-    flex-direction: column;
-    padding: 2.5rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
-
-.iframe {
-    width: 100%;
-
+.contact1 .iframe {
+  width: 100%;
 }
-
-/*======FIN CONTACTOS======*/
-
-/*=====RESERVAS======*/
 
 .reservas-ct {
-    padding: 6rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .div-form {
-    margin: 1.875rem 1.25rem;
+  margin: 1.875rem 1.25rem;
 }
-
-.bg-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(126, 51, 92);
-    width: 35rem;
-    border: 0.0625rem solid #160a0f;
-    border-radius: 0.625rem;
+.div-form .bg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(126, 51, 92);
+  width: 35rem;
+  border: 0.0625rem solid #160a0f;
+  border-radius: 0.625rem;
 }
-
-.form-title {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-size: 1.5625rem;
-    word-spacing: 0.3125rem;
-    margin: 1.25rem 0;
+.div-form .bg-form .form-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5625rem;
+  word-spacing: 0.3125rem;
+  margin: 1.25rem 0;
 }
-
-.input-form {
-    width: 18.125rem;
-    height: 2.1875rem;
-    margin: 0.625rem 1.875rem;
-    padding: 0 0.625rem;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    background-color: #e9ccc6;
-
+.div-form .bg-form .input-form {
+  width: 18.125rem;
+  height: 2.1875rem;
+  margin: 0.625rem 1.875rem;
+  padding: 0 0.625rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: #e9ccc6;
 }
-
-.textarea{
-    background-color: #e9ccc6;
+.div-form .bg-form .textarea {
+  background-color: #e9ccc6;
 }
-
-.button-form {
-    width: 10rem;
-    margin: 0.5rem 0 1rem 1rem;
-    border: 1px solid rgb(57, 21, 35);
-    color: rgb(0, 0, 0);
-    box-shadow: 0 0.125rem 0 rgb(9, 8, 9);
-    border-radius: 0.1875rem;
-    background-color: #b7958e;
+.div-form .bg-form .button-form {
+  width: 10rem;
+  margin: 0.5rem 0 1rem 1rem;
+  border: 1px solid rgb(57, 21, 35);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0.125rem 0 rgb(9, 8, 9);
+  border-radius: 0.1875rem;
+  background-color: #b7958e;
 }
-
-.button-form:hover {
-    transform: scale(1.1);
-    transition: all is ease;
+.div-form .bg-form .button-form:hover {
+  transform: scale(1.1);
+  transition: all is ease;
 }
-
-/*========FIN RESERVAS======*/
-
-
-/*------FOOTER------*/
 
 .footer-pr {
-    background-color: #b7958e;
-    color: #160a0f;
-    text-align: center;
-    text-transform: uppercase;
+  background-color: #b7958e;
+  color: #160a0f;
+  text-align: center;
+  text-transform: uppercase;
 }
-
-.icon-social {
-    color: blueviolet;
-    transform: scale(1.1);
-    transition: all 0.5s ease;
+.footer-pr .icon-social {
+  color: blueviolet;
+  transform: scale(1.1);
+  transition: all 0.5s ease;
 }
 
 @media (max-width: 992px) {
-    .main-form {
-        flex-direction: column;
-    }
-
-    .iframe-contact {
-        width: 80vh;
-        margin: 0px;
-        padding: 0px;
-    }
-
-    .bg-form {
-        width: 80vh;
-    }
-
-    .form-title {
-        font-size: 20px;
-    }
-
-    .input-form {
-        width: 210px;
-        margin: 10px 45px;
-    }
-
-    .textarea {
-        margin: 15px;
-        padding: 0px;
-    }
-
-    .button-form {
-        width: 270px;
-        margin: 15px;
-    }
-
+  .main-form {
+    flex-direction: column;
+  }
+  .iframe-contact {
+    width: 80vh;
+    margin: 0px;
+    padding: 0px;
+  }
+  .bg-form {
+    width: 80vh;
+  }
+  .form-title {
+    font-size: 20px;
+  }
+  .input-form {
+    width: 210px;
+    margin: 10px 45px;
+  }
+  .textarea {
+    margin: 15px;
+    padding: 0px;
+  }
+  .button-form {
+    width: 270px;
+    margin: 15px;
+  }
 }
 
+/*# sourceMappingURL=style.css.map */

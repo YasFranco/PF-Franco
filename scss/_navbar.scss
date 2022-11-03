@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #b7958e;
+    padding: 1.875rem;
+
+    .logo {
+        width: 3.125rem;
+        height: 3.125rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        color: black;
+        box-shadow: 0 0 5px black;
+    
+        .navbar-toggler-icon {
+            color: black;
+        }
+    }
+
+    .nav-link {
+        color: black;
+        font-size: medium;
+    
+        &:hover {
+            color: black;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
+            text-decoration: underline;
+        }
+    }
+}
