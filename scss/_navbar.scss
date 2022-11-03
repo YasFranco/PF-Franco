@@ -1,0 +1,32 @@
+.navbar {
+    background-color: $colorprincipal;
+        padding: 2rem;
+
+     .logo {
+        width: 3.125rem;
+        height: 3.125rem;
+        margin: 0;
+        padding: 0;
+     }
+
+     .navbar-toggler {
+        color: $textcolor;
+        box-shadow: 0 0 5px $textcolor;
+
+        .navbar-toggler-icon {
+            color: $textcolor;
+        }
+     }
+
+     .nav-link {
+        color: $textcolor;
+        font-size: medium;
+
+        &:hover {
+            color: $textcolor;
+            transform: scale(1.1);
+            transition: all 0.5s ease;
+            text-decoration: underline;
+        }
+     }
+}

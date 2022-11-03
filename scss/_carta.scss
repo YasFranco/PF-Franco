@@ -1,0 +1,16 @@
+.title-menu {
+    display: flex;
+    text-decoration: underline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

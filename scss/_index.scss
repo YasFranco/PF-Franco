@@ -1,0 +1,27 @@
+.title-recom {
+    display: flex;
+    color: $textcolor;
+    background-color: $colorprincipal;
+    height: 6.25rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        text-decoration: underline;
+    }
+}
+
+
+
+.container-fluid {
+    background-color: $colorprincipal;
+
+    .col-lg-4 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+
+    }
+}

@@ -1,0 +1,27 @@
+.banner {
+    background-image: url(../media/background-principal.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 38rem;
+    color: $textcolor;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    .btn-reservas {
+        background-color: $colorsecundario;
+        border-radius: 0.3125rem;
+
+        .link-reservas {
+            text-decoration: none;
+            color: $textcolor;
+
+            &:hover {
+                text-decoration: none;
+                color: $textcolor;
+            }
+        }
+    }
+}

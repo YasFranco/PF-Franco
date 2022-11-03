@@ -1,0 +1,32 @@
+.footer-pr {
+    display: flex;
+    flex-direction: column;
+    background-color: $colorprincipal;
+    color: $textcolor;
+    text-align: center;
+    text-transform: uppercase;
+
+    .redes {
+        padding: 20px;
+    }
+
+    .fa-facebook-f {
+        border-radius: 5px;
+        color: black;
+
+        &:hover {
+            background-color: white;
+            transition: all 1s;
+            transform: scale(1.5);
+        }
+
+    }
+
+    .fa-instagram {
+        @extend .fa-facebook-f
+    }
+
+    .fa-twitter {
+        @extend .fa-facebook-f
+    }
+}

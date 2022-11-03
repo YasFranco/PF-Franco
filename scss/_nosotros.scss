@@ -1,0 +1,51 @@
+.history {
+    padding: 1.875rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 18.75rem;
+    border: black solid;
+}
+
+@mixin background($position, $size){
+    background-position: $position;
+    background-size: $size;
+}
+
+.item1 {
+
+    background-image: url(../media/quienes-somos-1.jpg);
+    @include background(center, cover)
+    
+}
+
+.item2 {
+    background-image: url(../media/quienes-somos-2.jpg);
+    @include background(center, cover)
+}
+
+.item3 {
+    background-image: url(../media/quienes-somos-3.jpg);
+    @include background(center, cover)
+}
+
+.item4 {
+    background-image: url(../media/quienes-somos-4.jpg);
+    @include background(center, cover)
+}
+
+.item5 {
+    background-image: url(../media/quienes-somos-5.jpg);
+    @include background(center, cover)
+}
+
+
+.item6 {
+    background-image: url(../media/quienes-somos-6.jpg);
+    @include background(center, cover)
+}

@@ -1,6 +1,6 @@
 .navbar {
   background-color: #b7958e;
-  padding: 1.875rem;
+  padding: 2rem;
 }
 .navbar .logo {
   width: 3.125rem;
@@ -39,8 +39,8 @@
   align-items: center;
 }
 .banner .btn-reservas {
-  background-color: rgba(132, 15, 17, 0.719);
-  border-radius: 5px;
+  background-color: #e9ccc6;
+  border-radius: 0.3125rem;
 }
 .banner .btn-reservas .link-reservas {
   text-decoration: none;
@@ -87,32 +87,38 @@
   height: 18.75rem;
   border: black solid;
 }
-.item .item1 {
+
+.item1 {
   background-image: url(../media/quienes-somos-1.jpg);
   background-position: center;
   background-size: cover;
 }
-.item .item2 {
+
+.item2 {
   background-image: url(../media/quienes-somos-2.jpg);
   background-position: center;
   background-size: cover;
 }
-.item .item3 {
+
+.item3 {
   background-image: url(../media/quienes-somos-3.jpg);
   background-position: center;
   background-size: cover;
 }
-.item .item4 {
+
+.item4 {
   background-image: url(../media/quienes-somos-4.jpg);
   background-position: center;
   background-size: cover;
 }
-.item .item5 {
+
+.item5 {
   background-image: url(../media/quienes-somos-5.jpg);
   background-position: center;
   background-size: cover;
 }
-.item .item6 {
+
+.item6 {
   background-image: url(../media/quienes-somos-6.jpg);
   background-position: center;
   background-size: cover;
@@ -131,6 +137,52 @@
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.div-form {
+  margin: 1.875rem 1.25rem;
+}
+
+.bg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(126, 51, 92);
+  width: 35rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.625rem;
+}
+.bg-form .form-title {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.5625rem;
+  word-spacing: 0.3125rem;
+  margin: 1.25rem 0;
+}
+.bg-form .input-form {
+  width: 18.125rem;
+  height: 2.1875rem;
+  margin: 0.625rem 1.875rem;
+  padding: 0 0.625rem;
+  color: black;
+  text-align: center;
+  background-color: #e9ccc6;
+}
+.bg-form .textarea {
+  background-color: #e9ccc6;
+}
+.bg-form .button-form {
+  width: 10rem;
+  margin: 0.5rem 0 1rem 1rem;
+  border: 1px solid rgb(57, 21, 35);
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0.125rem 0 rgb(9, 8, 9);
+  border-radius: 0.1875rem;
+  background-color: #b7958e;
+}
+.bg-form .button-form:hover {
+  transform: scale(1.1);
+  transition: all is ease;
 }
 
 .contact1 {
@@ -153,89 +205,46 @@
   align-items: center;
 }
 
-.div-form {
-  margin: 1.875rem 1.25rem;
-}
-.div-form .bg-form {
+.footer-pr {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: rgb(126, 51, 92);
-  width: 35rem;
-  border: 0.0625rem solid #160a0f;
-  border-radius: 0.625rem;
-}
-.div-form .bg-form .form-title {
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-size: 1.5625rem;
-  word-spacing: 0.3125rem;
-  margin: 1.25rem 0;
-}
-.div-form .bg-form .input-form {
-  width: 18.125rem;
-  height: 2.1875rem;
-  margin: 0.625rem 1.875rem;
-  padding: 0 0.625rem;
-  color: rgb(0, 0, 0);
-  text-align: center;
-  background-color: #e9ccc6;
-}
-.div-form .bg-form .textarea {
-  background-color: #e9ccc6;
-}
-.div-form .bg-form .button-form {
-  width: 10rem;
-  margin: 0.5rem 0 1rem 1rem;
-  border: 1px solid rgb(57, 21, 35);
-  color: rgb(0, 0, 0);
-  box-shadow: 0 0.125rem 0 rgb(9, 8, 9);
-  border-radius: 0.1875rem;
   background-color: #b7958e;
-}
-.div-form .bg-form .button-form:hover {
-  transform: scale(1.1);
-  transition: all is ease;
-}
-
-.footer-pr {
-  background-color: #b7958e;
-  color: #160a0f;
+  color: black;
   text-align: center;
   text-transform: uppercase;
 }
-.footer-pr .icon-social {
-  color: blueviolet;
-  transform: scale(1.1);
-  transition: all 0.5s ease;
+.footer-pr .redes {
+  padding: 20px;
 }
-
-@media (max-width: 992px) {
-  .main-form {
-    flex-direction: column;
-  }
+.footer-pr .fa-facebook-f, .footer-pr .fa-twitter, .footer-pr .fa-instagram {
+  border-radius: 5px;
+  color: black;
+}
+.footer-pr .fa-facebook-f:hover, .footer-pr .fa-twitter:hover, .footer-pr .fa-instagram:hover {
+  background-color: white;
+  transition: all 1s;
+  transform: scale(1.5);
+}
+@media (max-width: 440px) {
   .iframe-contact {
-    width: 80vh;
-    margin: 0px;
-    padding: 0px;
+    width: 60vh;
+    margin: 0.625rem;
+    padding: 0.625rem;
   }
   .bg-form {
-    width: 80vh;
-  }
-  .form-title {
-    font-size: 20px;
+    width: 60vh;
   }
   .input-form {
-    width: 210px;
-    margin: 10px 45px;
+    width: 13.125rem;
+    margin: 0.625rem 2.8125rem;
   }
   .textarea {
-    margin: 15px;
+    margin: 0.9375rem;
     padding: 0px;
   }
   .button-form {
-    width: 270px;
-    margin: 15px;
+    width: 16.875rem;
+    margin: 0.9375rem;
   }
 }
 
