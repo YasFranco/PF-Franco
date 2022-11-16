@@ -20,7 +20,8 @@
 
      .nav-link {
         color: $textcolor;
-        font-size: medium;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
 
         &:hover {
             color: $textcolor;

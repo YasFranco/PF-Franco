@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300;1,700&display=swap");
 .navbar {
   background-color: #b7958e;
   padding: 2rem; }
@@ -13,7 +14,8 @@
       color: black; }
   .navbar .nav-link {
     color: black;
-    font-size: medium; }
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; }
     .navbar .nav-link:hover {
       color: black;
       transform: scale(1.1);
@@ -31,9 +33,13 @@
   text-align: center;
   justify-content: center;
   align-items: center; }
+  .banner h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; }
   .banner .btn-reservas {
     background-color: #e9ccc6;
-    border-radius: 0.3125rem; }
+    border-radius: 0.3125rem;
+    font-family: 'Roboto', sans-serif; }
     .banner .btn-reservas .link-reservas {
       text-decoration: none;
       color: black; }
@@ -50,7 +56,12 @@
   justify-content: center;
   align-items: center; }
   .title-recom h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
     text-decoration: underline; }
+  .title-recom p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; }
 
 .container-fluid {
   background-color: #b7958e; }
@@ -174,15 +185,22 @@
 .footer-pr {
   display: flex;
   flex-direction: column;
-  background-color: #b7958e;
+  background-color: black;
   color: black;
+  justify-content: space-between;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 1.875rem; }
+  .footer-pr .ftr-copy {
+    color: #b7958e; }
   .footer-pr .redes {
-    padding: 20px; }
+    padding: 1.25rem;
+    font-size: 1.80rem;
+    padding: 0; }
   .footer-pr .fa-facebook-f, .footer-pr .fa-instagram, .footer-pr .fa-twitter {
-    border-radius: 5px;
-    color: black; }
+    border-radius: 0.3125rem;
+    color: #b7958e;
+    padding: 0.625rem; }
     .footer-pr .fa-facebook-f:hover, .footer-pr .fa-instagram:hover, .footer-pr .fa-twitter:hover {
       background-color: white;
       transition: all 1s;

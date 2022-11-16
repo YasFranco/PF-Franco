@@ -1,18 +1,29 @@
 .footer-pr {
     display: flex;
     flex-direction: column;
-    background-color: $colorprincipal;
+    background-color: black;
     color: $textcolor;
+    justify-content: space-between;
     text-align: center;
     text-transform: uppercase;
+    padding: 1.875rem;
 
-    .redes {
-        padding: 20px;
+    .ftr-copy {
+        color: $colorprincipal;
+
     }
 
+    .redes {
+        padding: 1.25rem;
+        font-size: 1.80rem;
+        padding: 0;
+    }
+
+
     .fa-facebook-f {
-        border-radius: 5px;
-        color: black;
+        border-radius: 0.3125rem;
+        color: $colorprincipal;
+        padding: 0.625rem;
 
         &:hover {
             background-color: white;
