@@ -120,12 +120,19 @@
   text-align: center;
   justify-content: center;
   align-items: center; }
-  .title-menu .menu {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center; }
+
+.menu {
+  display: flex;
+  flex-direction: column; }
+
+h3 {
+  text-align: center; }
+
+ul {
+  justify-content: center;
+  align-items: center; }
+  ul li {
+    font-family: 'Roboto', sans-serif; }
 
 .div-form {
   margin: 1.875rem 1.25rem; }
