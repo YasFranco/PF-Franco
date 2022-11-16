@@ -19,11 +19,15 @@
         padding: 0;
     }
 
+    a {
+        text-decoration: none;
+    }
 
     .fa-facebook-f {
         border-radius: 0.3125rem;
         color: $colorprincipal;
         padding: 0.625rem;
+       
 
         &:hover {
             background-color: white;

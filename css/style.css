@@ -77,7 +77,8 @@
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  font-family: 'Roboto', sans-serif; }
 
 .item {
   height: 18.75rem;
@@ -197,6 +198,8 @@
     padding: 1.25rem;
     font-size: 1.80rem;
     padding: 0; }
+  .footer-pr a {
+    text-decoration: none; }
   .footer-pr .fa-facebook-f, .footer-pr .fa-instagram, .footer-pr .fa-twitter {
     border-radius: 0.3125rem;
     color: #b7958e;
