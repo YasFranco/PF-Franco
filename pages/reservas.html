@@ -55,19 +55,35 @@
   <!-- Inicio del main -->
   <div class="container-fluid reservas">
     <div class="reservas-ct">
-      <form class="bg-form">
-        <h2 class="form-title">Hace tu reserva aqui:</h2>
-        <input class="input-form" type="text" name="NOMBRE Y APELLIDO" maxlength="20" placeholder="NOMBRE Y APELLIDO">
-        <input class="input-form" type="email" name="EMAIL" placeholder="EMAIL">
-        <input class="input-form" type="text" name="TELÉFONO" placeholder="TELÉFONO">
-        <input class="input-form" type="date" name="fecha">
-        <select class="input-form" name="cantidad">
-          <option value="2">2 personas</option>
-          <option value="3">3 personas</option>
-          <option value="1">4 personas</option>
-          <option value="5">5 personas</option>
-        </select>
-        <button class="button-form" type="button">RESERVAR</button>
+      <h2 class="form-title">Hace tu reserva aqui:</h2>
+      <form class="bg-form" method="post" enctype="application/x-www-form-urlencoded">
+        <div class="form-celda">
+          <label for="nombre y apellido"> Responsable de la reserva</label>
+          <input class="input-form" type="text" name="nombre y apellido"  placeholder="nombre y apellido">
+        </div>
+        <div class="form-celda">
+          <input class="input-form" type="email" name="email" placeholder="ingrese su email">
+        </div>
+        <div class="form-celda">
+          <label for="telefono">Telefono</label>
+          <input class="input-form" type="text" name="telefono" placeholder="ingrese su numero">
+        </div>
+        <div class="form-celda">
+          <label for="fecha">Fecha de la reserva</label>
+          <input class="input-form" type="date" name="fecha">
+        </div>
+        <div class="form-celda">
+          <select class="input-form" name="cantidad">
+            <option value="2">2 personas</option>
+            <option value="3">3 personas</option>
+            <option value="1">4 personas</option>
+            <option value="5">5 personas</option>
+          </select>
+        </div>
+        <div class="form-celda">
+          <button class="button-form" type="button">RESERVAR</button>
+        </div>
+        
     </form>
     </div>
   </div>
