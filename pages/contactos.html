@@ -54,6 +54,7 @@
   </div>
   <!-- Inicio del main -->
   <div class="container-fluid contact1">
+
     <div class="contact">
       <div class="ct-map">
         <h3 class="ct-title">
@@ -64,18 +65,43 @@
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="ct-form">
-        <form class="bg-form">
-          <h2 class="form-title">¿Tenés alguna duda? Comunicate con nosotros</h2>
-          <input class="input-form" type="text" name="NOMBRE" maxlength="20" placeholder="NOMBRE">
-          <input class="input-form" type="text" name="LOCALIDAD" maxlength="20" placeholder="LOCALIDAD">
-          <input class="input-form" type="email" name="EMAIL" placeholder="EMAIL">
-          <input class="input-form" type="number" name="TELÉFONO" placeholder="TELÉFONO">
-          <textarea class="textarea" name="MENSAJE" placeholder="MENSAJE" cols="35" rows="10"></textarea>
-          <button class="button-form" type="button">ENVIAR</button>
-      </form>
 
+      <div class="reservas-ct">
+        <h2 class="form-title">Hace tu reserva aqui:</h2>
+        <div>
+          <form class="bg-form" method="post" enctype="application/x-www-form-urlencoded">
+            <div class="form-celda">
+              <label for="nombre y apellido"> Responsable de la reserva</label>
+              <input class="input-form" type="text" name="nombre y apellido" placeholder="nombre y apellido">
+            </div>
+            <div class="form-celda">
+              <input class="input-form" type="email" name="email" placeholder="ingrese su email">
+            </div>
+            <div class="form-celda">
+              <label for="telefono">Telefono</label>
+              <input class="input-form" type="text" name="telefono" placeholder="ingrese su numero">
+            </div>
+            <div class="form-celda">
+              <label for="fecha">Fecha de la reserva</label>
+              <input class="input-form" type="date" name="fecha">
+            </div>
+            <div class="form-celda">
+              <select class="input-form" name="cantidad">
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="1">4 personas</option>
+                <option value="5">5 personas</option>
+              </select>
+            </div>
+            <div class="form-celda">
+              <button class="button-form" type="button">RESERVAR</button>
+            </div>
+  
+          </form>
+        </div>
       </div>
+      
+      
     </div>
 
   </div>
@@ -84,16 +110,9 @@
     <footer class="footer-pr">
       <p class="ftr-copy"> Todos los derechos son reservados por Copyright</p>
       <div class="redes">
-        <a href="https://www.facebook.com/" target="_blank">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="https://www.twitter.com/" target="_blank">
-          <i class="fab fa-twitter"></i>
-        </a>
-
+        <i class="fab fa-facebook-f "></i>
+        <i class="fab fa-instagram "></i>
+        <i class="fab fa-twitter "></i>
       </div>
     </footer>
   </div>
