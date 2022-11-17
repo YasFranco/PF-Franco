@@ -1,4 +1,4 @@
-@media (max-width: 440px) {
+@media (max-width: 424px) {
    
     .iframe-contact {
         width: 60vh;
@@ -7,22 +7,17 @@
     }
 
     .bg-form {
-        max-width: 100%;
-    }
+        max-width: 18rem;
+        margin: 0;
 
-    .input-form {
-        width: 90%;
-        margin: 0.625rem 2.8125rem;
     }
+}
 
-    .textarea {
-        margin: 0.9375rem;
-        padding: 0px;
+@media (max-width: 768px){
+    .bg-form{
+        max-width: 32.75rem;
+        margin: 0 auto;
+
+
     }
-
-    .button-form {
-        width: 16.875rem;
-        margin: 0.9375rem;
-    }
-
 }

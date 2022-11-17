@@ -145,13 +145,11 @@ ul {
   margin: 1.25rem 0; }
 
 .bg-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 100%;
+  /*max-width: 90%;*/
   background-color: #7e335c;
   border: 0.0625rem solid black;
-  border-radius: 0.625rem; }
+  border-radius: 0.625rem;
+  margin: 0 30%; }
   .bg-form .form-celda {
     display: flex;
     flex-direction: column;
@@ -199,11 +197,9 @@ ul {
     width: 100%; }
 
 .reservas-ct {
-  display: flex;
-  flex-direction: column;
-  padding: 50px 100px;
-  justify-content: center;
-  align-items: stretch; }
+  padding: 50px 10px;
+  max-width: 80.8rem;
+  margin: 0 auto; }
 
 .footer-pr {
   display: flex;
@@ -231,19 +227,16 @@ ul {
       transition: all 1s;
       transform: scale(1.5); }
 
-@media (max-width: 440px) {
+@media (max-width: 424px) {
   .iframe-contact {
     width: 60vh;
     margin: 0.625rem;
     padding: 0.625rem; }
   .bg-form {
-    max-width: 100%; }
-  .input-form {
-    width: 90%;
-    margin: 0.625rem 2.8125rem; }
-  .textarea {
-    margin: 0.9375rem;
-    padding: 0px; }
-  .button-form {
-    width: 16.875rem;
-    margin: 0.9375rem; } }
+    max-width: 18rem;
+    margin: 0; } }
+
+@media (max-width: 768px) {
+  .bg-form {
+    max-width: 32.75rem;
+    margin: 0 auto; } }

@@ -11,13 +11,11 @@
 }
 
 .bg-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 100%;
+    /*max-width: 90%;*/
     background-color: $colorforms;
     border: 0.0625rem solid $textcolor;
     border-radius: 0.625rem;
+    margin: 0 30%;
 
     .form-celda {
         display: flex;
