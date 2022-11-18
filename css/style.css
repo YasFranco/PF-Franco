@@ -169,8 +169,6 @@ ul {
       text-align: center;
       justify-content: center;
       background-color: #e9ccc6; }
-    .bg-form .form-celda .textarea {
-      background-color: #e9ccc6; }
     .bg-form .form-celda .button-form {
       width: 10rem;
       margin: 0.5rem 0 1rem 1rem;
@@ -184,6 +182,10 @@ ul {
       .bg-form .form-celda .button-form:hover {
         transform: scale(1.1);
         transition: all is ease; }
+  .bg-form .form-text {
+    background-color: #e9ccc6;
+    resize: vertical;
+    width: 80%; }
 
 .contact1 {
   padding: 2.5rem;

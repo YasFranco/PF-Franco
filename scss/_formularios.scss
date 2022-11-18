@@ -22,14 +22,14 @@
         justify-content: center;
         align-items: center;
 
-        label{
+        label {
             font-family: 'Roboto', sans-serif;
             font-size: large;
             font-weight: 500;
             color: black;
             text-shadow: 0 0 5px white;
             text-align: center;
-    
+
         }
 
         .input-form {
@@ -40,13 +40,11 @@
             text-align: center;
             justify-content: center;
             background-color: $colorsecundario;
-    
+
         }
 
-        .textarea {
-            background-color: $colorsecundario;
-        }
-    
+
+
         .button-form {
             width: 10rem;
             margin: 0.5rem 0 1rem 1rem;
@@ -57,7 +55,7 @@
             background-color: $colorprincipal;
             justify-content: center;
             align-items: center;
-    
+
             &:hover {
                 transform: scale(1.1);
                 transition: all is ease;
@@ -66,5 +64,10 @@
 
     }
 
+    .form-text {
+        background-color: $colorsecundario;
+        resize: vertical;
+        width: 80%;
+    }
 
 }
